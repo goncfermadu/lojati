@@ -1,0 +1,92 @@
+body {
+    background-color: #C8E6D0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.comeco {
+    color: rgb(70, 85, 180);
+    text-align: center;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #B2D8C4;
+}
+
+ul li a {
+    display: block;
+    color: #4655B4;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #92CAC0;
+}
+
+#produtos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    margin: 22px;
+}
+
+#concertos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    margin: 22px;
+}
+
+.concerto {
+    color: #4655B4;
+    text-align: center;
+    font-size: larger;
+}
+
+form {
+    background-color: #E3EDF2;
+    width: 350px;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.ajuda {
+    color: #4655B4;
+    text-align: center;
+    font-size: larger;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #A8CDB8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#botao {
+    background-color: #2457A7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#botao:hover {
+    background-color: #173D78;
+}
